@@ -12,3 +12,21 @@ go packagemanger - use go mod
 ==============================
 
     c:\Arun>go mod vendor 
+
+
+good examples:
+===============
+
+https://github.com/grpc/grpc-go/tree/master/examples
+
+
+        INSTALL
+        $ go get -u google.golang.org/grpc/examples/helloworld/greeter_client
+        $ go get -u google.golang.org/grpc/examples/helloworld/greeter_server
+        TRY IT!
+        Run the server
+
+        $ greeter_server &
+        Run the client
+
+        $ greeter_client
