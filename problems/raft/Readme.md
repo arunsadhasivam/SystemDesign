@@ -1,6 +1,11 @@
 Step 1:
 ========
 
+Raft Basics:
+===========
+
+      http://thesecretlivesofdata.com/raft/
+
 design:
 =======
      
