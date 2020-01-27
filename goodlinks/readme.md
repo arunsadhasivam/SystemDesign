@@ -11,3 +11,9 @@ https://algodaily.com/lessons/how-to-prepare-for-a-technical-interview
 https://www.prodevelopertutorial.com/page/2/?s=System+design
 
 http://blog.gainlo.co/index.php/category/system-design-interview-questions/
+
+
+how to present:
+================
+
+https://www.hiredintech.com/classrooms/system-design/lesson/52
