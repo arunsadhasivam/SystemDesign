@@ -207,10 +207,10 @@ Important:
     when say file upload it is available in datacenter in california but not available immediately
     in datacenter in SLC    then your application should handle this scenario.
     
-    let say if call goes to slc but the replication is in process when request in california can get the file but
-    user in slc wont able to get , so in such scenario application should handle this scenario.
-    in such scenario applicaiton code should make a call to the remote datacenter california where data is available 
-    and get the user in slc and put in the s3 object cache.
+    let say if call goes to slc but the replication is in process when request in california can get the
+    file but user in slc wont able to get , so in such scenario application should handle this scenario.
+    in such scenario applicaiton code should make a call to the remote datacenter california where data is 
+    available   and get the user in slc and put in the s3 object cache.
     
     
 8.OverProvision
