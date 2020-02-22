@@ -129,6 +129,8 @@ Requirement: (10 min)
      client ->call to dns to get the nearest Point of presence.
 
 
+    Indexing -> read the content in db and do indexing of the words for faster search processing.
+
     AWS S3 - Object Store 
     
     Reverse Proxy vs Load Balancer
@@ -179,5 +181,8 @@ Requirement: (10 min)
     
     Zookeper = for data to monitor if any node down - consenus distributed system. 
     kubernetes = for process to monitor the cluster , if any node down.
+    
+    
+    
     
           
