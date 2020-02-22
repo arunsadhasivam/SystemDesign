@@ -164,7 +164,7 @@ Requirement: (10 min)
  NOTE:
  =====
    
-   To Manage more scalable design 
+    To Manage more scalable design 
     - in db side sharding concepts.
     - in application side distributed caching.
     - in data side for coordination of splitting data to improve data processing - zookeper
