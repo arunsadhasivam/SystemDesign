@@ -136,11 +136,13 @@ Requirement: (10 min)
     
     Reverse Proxy:
     ==============
-    A reverse proxy accepts a request from a client, forwards it to a server that can fulfill it, and returns the server’s response to       the client.
+    A reverse proxy accepts a request from a client, forwards it to a server that can fulfill it,
+    and returns the server’s response to the client.
 
      load balancer:
      ==============
      
-     A load balancer distributes incoming client requests among a group of servers, in each case returning the response from the              selected server to the appropriate client.
+     A load balancer distributes incoming client requests among a group of servers, 
+     in each case returning the response from the selected server to the appropriate client.
 
     
