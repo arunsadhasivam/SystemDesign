@@ -5,8 +5,8 @@ System Design - Dropbox:
 Requirement: (10 min)
 =====================
 
-1) Functional Requirement.
-===========================
+1) Functional Requirement:
+==========================
 
      -Cloud Storage  (upload & Download)
      -Share
@@ -15,10 +15,9 @@ Requirement: (10 min)
      -versioning.
      -collaboration
      
-2) Non-Functional Requirement.
-===============================
-
-     
+2)Non-Functional Requirement:
+==============================
+    
      -Availability of document all time (e.g 99% available) .
      -scalable(add or remove ram without restart server node).
      -durable( upload a file it will be available )
