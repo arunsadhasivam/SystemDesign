@@ -133,6 +133,14 @@ Requirement: (10 min)
 
     AWS S3 - Object Store 
     
+    NOTE:
+    ===== 
+      Success of the availability lets say 99% depends on each component , let says if aws s3
+      availability is 99% then surely overall availability is less than 99% since we have 
+      dns -> lb-> queue so it can gets lower so the product cannot adversity 99%
+      
+      i.e availability -> availability of DNS  (AND) availabilty of LB (AND) availabilyt of S3 and other components
+    
     Reverse Proxy vs Load Balancer
     ==============================
     
