@@ -23,7 +23,7 @@ Requirement: (10 min)
      -durable( upload a file it will be available )
      
      durable vs availablity:
-     =======================
+     ======================= 
      
       - Availability -upload a file it will be availble 99% -availability
            but durable even it is down can download file once server up.
@@ -220,3 +220,12 @@ Important:
 if we have 3 datacenter , we should make sure load to datacenter does not go above 50% because , if in case of
 any failures or disaster  all load will go to single datacenter cluster. so in order make sure plan for disaster
 we should make sure  datacenter load not exceeds more than 50% of cpu.
+
+
+9.RateLimiter:
+===============
+
+during peak hours , the task like fetching the data from queue  will be limited but does the
+processing of queue during non-peak hours.
+so we have rate limiter facility - we have rate limit percentage only that percentage will be
+used if request comes during peak hours. 
