@@ -193,10 +193,10 @@ Important:
     kubernetes = for process to monitor the cluster , if any node down.
     
     
-    
-    Consistent Hashing:
-    ===================
-    
+
+7.Consistent Hashing:
+===================
+
     Eventual Consistency  
     ====================
     
@@ -212,4 +212,11 @@ Important:
     in such scenario applicaiton code should make a call to the remote datacenter california where data is available 
     and get the user in slc and put in the s3 object cache.
     
-          
+    
+8.OverProvision
+================
+
+
+if we have 3 datacenter , we should make sure load to datacenter does not go above 50% because , if in case of
+any failures or disaster  all load will go to single datacenter cluster. so in order make sure plan for disaster
+we should make sure  datacenter load not exceeds more than 50% of cpu.
