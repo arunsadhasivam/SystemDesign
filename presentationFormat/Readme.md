@@ -97,6 +97,6 @@ Requirement: (10 min)
                               \
                                 DB  
                
-    user - > request for a file -> webserver -> makes a call to db get the path -> starts downloading the file from file system.
-         
+    user - > request for a file -> webserver -> makes call to db -> starts downloading the file from file system.
+                                               (get the path)
          
