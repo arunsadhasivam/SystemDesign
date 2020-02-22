@@ -111,6 +111,8 @@ Requirement: (10 min)
    
    5)Detailed  System Design Diagram:
    ==================================
+   
+   
              Edge DataCenter
                   |      |           proxy -> AWS S3
                   |      |         / 
