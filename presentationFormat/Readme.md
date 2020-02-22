@@ -23,7 +23,7 @@ Requirement: (10 min)
      -durable( upload a file it will be available )
      
      durable vs availablity:
-     -----------------------
+     =======================
      
       - Availability -upload a file it will be availble 99% -availability
            but durable even it is down can download file once server up.
@@ -99,4 +99,6 @@ Requirement: (10 min)
                
     user - > request for a file -> webserver -> makes call to db -> starts downloading the file from file system.
                                                (get the path)
-         
+   
+   
+   
