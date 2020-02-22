@@ -139,6 +139,8 @@ Requirement: (10 min)
       availability is 99% then surely overall availability is less than 99% since we have 
       dns -> lb-> queue so it can gets lower so the product cannot adversity 99%
       
+Important:
+=========
       i.e availability -> availability of DNS  (AND) availabilty of LB (AND) availabilyt of S3 and other components
     
     Reverse Proxy vs Load Balancer
