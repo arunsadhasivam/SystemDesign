@@ -169,4 +169,8 @@ Requirement: (10 min)
     sharding - mechanism to improve the scalability to share loading in databse side.
     distributed cache - for application side and horizontal scalling to improve the scalability.
     
+    
+    Zookeper = for data to monitor if any node down - consenus distributed system. 
+    kubernetes = for process to monitor the cluster , if any node down.
+    
           
