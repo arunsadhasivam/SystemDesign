@@ -107,10 +107,10 @@ Requirement: (10 min)
      ====
         GET - getFP() - return filePath
         GET - getFile( String filePath);
-        
-   
-   5)Detailed  System Design Diagram:
-   ==================================
+      
+      
+5)Detailed  System Design Diagram:
+==================================
    
 
                            Edge DataCenter
@@ -146,3 +146,27 @@ Requirement: (10 min)
      in each case returning the response from the selected server to the appropriate client.
 
     
+6)Data base Design:
+===================
+
+       +user 
+        - userid
+
+       +file
+         -fid(pk)
+         -uid(fk)
+
+       +version
+          -vid(pk)
+          -fid(pk)
+ 
+ 
+ NOTE:
+ =====
+ 
+    Need to design distributed cache to improve the speed and horizontal scalling.
+    
+    sharding - mechanism to improve the scalability to share loading in databse side.
+    distributed cache - for application side and horizontal scalling to improve the scalability.
+    
+          
