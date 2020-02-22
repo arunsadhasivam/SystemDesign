@@ -100,5 +100,35 @@ Requirement: (10 min)
     user - > request for a file -> webserver -> makes call to db -> starts downloading the file from file system.
                                                (get the path)
    
+    user request for a file get the path from db and return the path to the server and
+    the webserver stream the bytes from the file system.
+     
+     API :
+     ====
+        GET - getFP() - return filePath
+        GET - getFile( String filePath);
+        
    
-   
+   5)Detailed  System Design Diagram:
+   ==================================
+             Edge DataCenter
+                  |      |           proxy -> AWS S3
+                  |      |         / 
+   client -> pop -> LB -> upload  -----------------> DB
+      |           |      |     \    \
+     DNS          |      |      Queue \   (upward flow)                  
+                  |      |         \   \
+                  |      |          \ -->Preview 
+                  |      |           \   \
+                  |      |            \ __ Indexing -> DB
+                  |      |            
+                  |      |------------- Data Center   -------------->                   
+                                    
+     client ->call to dns to get the nearest Point of presence.
+
+
+    AWS S3 - Object Store 
+    
+    Reverse Proxy vs Load Balancer
+    ==============================
+    
