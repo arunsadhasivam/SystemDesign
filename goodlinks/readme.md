@@ -18,8 +18,7 @@ how to present:
 
 https://www.hiredintech.com/classrooms/system-design/lesson/52
 
-Cap theroem, consistent hashing
-===============
+Cap theroem, consistent hashing - best system design video
 
 
 https://youtu.be/Y6Ev8GIlbxc
